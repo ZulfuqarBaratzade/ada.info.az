@@ -16,10 +16,10 @@ function Header() {
         <div className="nav">
           <ul>
             <li>
-              <a href="#">haqqımızda</a>
+              <a href="#services">haqqımızda</a>
             </li>
             <li>
-              <a href="#">xidmətlərimiz</a>
+              <a href="#about">xidmətlərimiz</a>
             </li>
             <li>
               <a href="#">bizimlə əlaqə</a>

@@ -5,10 +5,10 @@ import person2 from '../Images/person-2.jpg'
 import person3 from '../Images/person-3.jpg'
 import person4 from '../Images/person-4.jpg'
 import person5 from '../Images/person-5.jpg'
-import person6 from '../Images/person-6.jpg'
+
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
         <div className='services-title'>
         <h2>Mərkəzimizin Missiyası və Məqsədi</h2>
         <p>Uşaqların inkişafına dəstək olmaq və cəmiyyətə inteqrasiyasını təmin etmək.</p>

@@ -7,13 +7,12 @@
     padding: 20px;
     margin-top: 40px;
     justify-content: space-around;
-    position: relative;
     
 }
-.footer h2{
+
+.footer-services h2{
     color: #fff;
-    position: absolute;
-    top: 20px;
+    text-align: center;
 }
 .footer-service{
     list-style: none;
@@ -36,6 +35,19 @@
     opacity: 0.8;
 }
 
+.sol{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    float: right;
+    color: #fff;
+    font-size: 0.8em;
+    
+}
+.sol > .crated{
+    color: red !important;
+    
+}
 @media (max-width:512px) {
     .footer{
         flex-direction: column;

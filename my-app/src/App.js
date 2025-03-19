@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import MainBanner from './Components/MainBanner';
 import Services from './Components/Services';
 import About from './Components/About';
+import ContactUS from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <MainBanner />
         <About />
         <Services />
+        <ContactUS />
+        <Footer />
       
       </div>
       

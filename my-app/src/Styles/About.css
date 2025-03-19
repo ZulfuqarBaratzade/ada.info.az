@@ -3,16 +3,24 @@
     flex-direction: column;
     align-items: center;
     margin: 40px;
+    width: 100%;
+}
+
+.about-title{
+    max-width: 600px;
 }
 .about-title h2{
     font-size: 3em;
     color: #0D515A;
     text-align: center;
     line-height: 40px;
+
 }
+
 .about-title img{
-    width: 600px;
+    width: 100%;
     margin-top: 40px;
+   
 }
 .about-cards{
     display: flex;
@@ -23,7 +31,8 @@
 }
 .about-card{
     margin-top: 40px;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -36,12 +45,16 @@
 }
 .about-card h2{
     margin-top: 50px;
+
     
     line-height: 30px;
+    font-size:1.5em;
 }
 .about-card p{
     position: absolute;
     top: 25%;
+    padding: 10px;
+    line-height: 30px;
     
     
 }
@@ -51,8 +64,15 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    top: 40%;
+    top: 50%;
+    
 }
 .about-card li{
     font-style: italic;
+    text-decoration: underline;
+}
+@media(max-width:760px){
+    .about-card{
+        height: 600px;
+    }
 }

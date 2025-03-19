@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className='about-cards'>
             <div className='about-card'>
-                <h2>Xüsusi Qayğıya Ehtiyacı Olan Uşaqlar Üçün Bağça</h2>
+                <h2>Bağça</h2>
                 <p>Bağçamız yalnız xüsusi qayğıya ehtiyacı olan uşaqlar üçün nəzərdə tutulub və onların ehtiyaclarına uyğun fərdi yanaşma ilə fəaliyyət göstərir. Tədris və inkişaf proqramlarımız aşağıdakı sahələri əhatə edir:</p>
                 <ul>
                     <li>Sosial bacarıqların inkişafı</li>

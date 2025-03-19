@@ -45,9 +45,33 @@
     display: none;
     color: var(--main-color);
 }
+
+.nav.show {
+    display: block;
+ 
+    position: absolute;
+    top: 80px;
+    left: 0;
+    opacity: 1;
+    height: 100px;
+    
+    
+}
+
 @media (max-width:500px) {
     .nav{
         display: none;
+        height: 0;
+        opacity: 0;
+        
+    }
+    .nav ul{
+        flex-direction: column;
+        width: 500px;
+        text-align: center;
+        background-color: #fff;
+        transform: translateX(-20px);
+
     }
     .btn{
         display: block;

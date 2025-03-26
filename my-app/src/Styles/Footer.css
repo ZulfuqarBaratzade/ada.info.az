@@ -1,6 +1,6 @@
 .footer{
     display: flex;
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color:#004B44;
     align-items: center;
@@ -13,6 +13,7 @@
 .footer-services h2{
     color: #fff;
     text-align: center;
+    line-height: 50px;
 }
 .footer-service{
     list-style: none;
@@ -36,32 +37,33 @@
 }
 
 .sol{
-    position: relative;
-    top: 20px;
-    left: 200px;
-    float: right;
+    margin-top: 50px;
     color: #fff;
     font-size: 0.8em;
+    float: right;
     
 }
 .sol > .crated{
     color: red !important;
     
 }
-@media (max-width:512px) {
-    .footer{
-        flex-direction: column;
-        height: 400px;
-    }
-    .footer-services{
-        margin-top: 30px;
-    }
+@media(max-width:1050px){
     .footer-service{
         flex-direction: column;
-        
-    }
-    .footer-service li{
         text-align: center;
     }
-    
+    .footer{
+        height: 400px;
+        padding: 40px;
+    }
+    .sol{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:512px){
+    .footer{
+        height: 600px;
+    }
+
 }

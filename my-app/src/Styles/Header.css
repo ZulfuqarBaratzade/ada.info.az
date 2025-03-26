@@ -18,14 +18,18 @@
 .nav{
     display: flex;
     align-items: center;
-    max-width: 800px;
     justify-content: space-around;
     gap: 20px;
+    width: 100%;
+    
+
 }
 .nav ul{
     list-style: none;
     display: flex;
     gap: 20px;
+    
+    
 }
 .nav a{
     text-decoration: none;
@@ -48,14 +52,11 @@
 
 .nav.show {
     display: block;
- 
     position: absolute;
     top: 80px;
     left: 0;
     opacity: 1;
-    height: 100px;
-    
-    
+    height: 100px;  
 }
 
 @media (max-width:500px) {
@@ -67,10 +68,18 @@
     }
     .nav ul{
         flex-direction: column;
-        width: 500px;
         text-align: center;
         background-color: #fff;
         transform: translateX(-20px);
+
+    }
+    .btn{
+        display: block;
+    }
+}
+@media (max-width:400px) {
+    .nav ul{
+        transform: translateX(-10px);
 
     }
     .btn{

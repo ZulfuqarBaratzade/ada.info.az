@@ -45,18 +45,12 @@
 }
 .about-card h2{
     margin-top: 50px;
-
-    
     line-height: 30px;
     font-size:1.5em;
+
 }
 .about-card p{
-    position: absolute;
-    top: 25%;
-    padding: 10px;
-    line-height: 30px;
-    
-    
+    line-height: 30px;    
 }
 .about-card ul{
     position: absolute;
@@ -71,8 +65,16 @@
     font-style: italic;
     text-decoration: underline;
 }
-@media(max-width:760px){
+
+@media(max-width:768px) {
     .about-card{
-        height: 600px;
+        height: 500px;
     }
+    
+}
+@media(max-width:500px) {
+    .about-card{
+        height: 550px;
+    }
+    
 }
